@@ -7,7 +7,9 @@ const bcrypt = require('bcryptjs');
 const app = express();
 
 // Use CORS for your Heroku app
-app.use(cors({ origin: 'https://floating-citadel-66452-32c90ba4ea6a.herokuapp.com' }));
+// Use CORS for development and production
+const allowedOrigins = ['http://localhost:3000', 'https://floating-citadel-66452-32c90ba4ea6a.herokuapp.com'];
+app.use(cors({ origin: allowedOrigins }));
 
 app.use(express.json());
 
