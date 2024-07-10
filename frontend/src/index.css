@@ -6,7 +6,6 @@ code {
 /* Dashed line grid paper like background. */
 	
 body {
-
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -14,15 +13,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  /* options */
-	--grid-size: 30px;
-	--grid-strength: 1px;
-	--grid-dash: 5px;
+  /* Grid settings */
+  --grid-size: 30px;
+  --grid-strength: 1px;
+  --grid-dash: 5px;
   --grid-gap: 10px;
-	--grid-color: #bbb;
-	--paper-color: #f5f5f5;
+  --grid-color: #bbb;
+  --paper-color: #f5f5f5;
   
-   /* styling */
+  /* Background styling */
   background-color: var(--paper-color);
   background-size: var(--grid-gap) var(--grid-gap), var(--grid-size) var(--grid-size);
   background-image:
