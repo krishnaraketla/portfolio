@@ -30,3 +30,9 @@ body {
     linear-gradient(to right, transparent var(--grid-dash), var(--paper-color) var(--grid-dash)),
     linear-gradient(to bottom, var(--grid-color) var(--grid-strength), transparent var(--grid-strength));
 }
+
+/* Add this to your index.css file */
+.red-grid {
+  --grid-color: #ff0000;
+  --paper-color: #ffeeee;
+}
