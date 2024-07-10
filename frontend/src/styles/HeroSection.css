@@ -1,0 +1,17 @@
+.hero {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    background-color: #4A4A4A;
+    align-items: center;
+    align-content: center;
+}
+
+.hero-card {
+    margin: auto;
+    height: 50%;
+    width: 50%;
+    z-index: 1000;
+    background-color: #4A4A4A;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Shadow effect */
+}
