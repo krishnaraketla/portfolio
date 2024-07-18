@@ -1,18 +1,18 @@
 :root {
-    --background-color: rgba(247, 243, 234, 1);
-    --title-text-color: rgba(161, 140, 130, 1);
-    --title-text-hover: rgb(54, 53, 53);
-    --body-text-color: rgba(109, 100, 96, 1);
-    --caption-text-color: rgba(160, 150, 145, 1);
-    --background-hover-color: rgba(230, 220, 200, 1);
-    --border: 1px solid rgba(200, 190, 180, 1);
-    --nav-arrows: var(--title-text-color);
-    --nav-arrows-hover: var(--title-text-hover);
+  --background-color: #778899; /* Light Slate Gray */
+  --title-text-color: #483D8B; /* Dark Slate Blue */
+  --title-text-hover: #6A5ACD; /* Slate Blue */
+  --body-text-color: #696969; /* Dim Gray */
+  --caption-text-color: #A9A9A9; /* Dark Gray */
+  --background-hover-color: #B0C4DE; /* Light Steel Blue */
+  --border: 1px solid #D3D3D3; /* Light Gray */
+  --nav-arrows: var(--title-text-color);
+  --nav-arrows-hover: var(--title-text-hover);
 
-    --alt-background-color: rgba(220, 220, 220, 1);
-    --alt-title-text-color: rgba(131, 110, 100, 1);
-    --alt-title-text-hover: rgba(84, 73, 63, 1);
-    --alt-body-text-color: rgba(89, 80, 76, 1);
-    --alt-caption-text-color: rgba(140, 130, 125, 1);
-    --alt-background-hover-color: rgba(200, 190, 180, 1);
-  }
+  --alt-background-color: #F5F5F5; /* White Smoke */
+  --alt-title-text-color: #2F4F4F; /* Dark Slate Gray */
+  --alt-title-text-hover: #556B2F; /* Dark Olive Green */
+  --alt-body-text-color: #696969; /* Dim Gray */
+  --alt-caption-text-color: #A9A9A9; /* Dark Gray */
+  --alt-background-hover-color: #D3D3D3; /* Light Gray */
+}

@@ -1,17 +1,80 @@
 .hero {
     display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     height: 80%;
     width: 100%;
-    background-color: #4A4A4A;
-    align-items: center;
-    align-content: center;
+    background-color: var(--background-color);
 }
 
 .hero-card {
+    display: flex;
+    justify-content: center; /* Center text horizontally within the card */
+    align-items: center; /* Center text vertically within the card */
+    text-align: left; /* Center text inside the h1 element */
     margin: auto;
     height: 50%;
     width: 50%;
     z-index: 1000;
-    background-color: #4A4A4A;
+    background-color: var(--background-color);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Shadow effect */
+}
+
+.hero-card h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--title-text-color);
+    margin: 0;
+    padding: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(200, 200, 200, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-card h1 .changing-text {
+    display: inline-block;
+    width: 600px; /* Set a fixed width based on the longest text */
+    white-space: nowrap; /* Prevent text wrapping */
+
+    text-align: left; /* Align text to the left */
+    animation: scrollUp 3s linear infinite;
+}
+
+.hero-card h1:hover {
+    color: var(--title-text-hover); /* Change color on hover */
+}
+
+@keyframes scrollUp {
+    0% {
+        
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    25% {
+
+    color: var(--title-text-color);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(200, 200, 200, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        opacity: 1;
+        transform: translateY(0);
+    }
+    75% {
+    color: var(--title-text-color);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(200, 200, 200, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+}
+
+.invisible {
+    visibility: hidden;
 }
