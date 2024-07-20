@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 48%;
     width: 100%;
     background-color: var(--background-color);
     padding: 20px;
@@ -49,7 +49,7 @@
 
 .changing-text-container {
     display: inline-block;
-    width: 600px; /* Adjust this width based on your longest role */
+    width: 600px;
     vertical-align: bottom;
     overflow: hidden;
 }
@@ -85,7 +85,7 @@
         font-size: 2rem;
     }
     .changing-text-container {
-        width: 250px; /* Adjust for smaller screens */
+        width: 600px; /* Adjust for smaller screens */
     }
 }
 
@@ -94,6 +94,6 @@
         font-size: 1.5rem;
     }
     .changing-text-container {
-        width: 200px; /* Adjust for even smaller screens */
+        width: 600px; /* Adjust for even smaller screens */
     }
 }
