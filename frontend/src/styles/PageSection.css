@@ -1,6 +1,5 @@
 .page-section:nth-child(even){
     display: flex;
-    border: 1px solid red;
     flex:1;
     background-color: var(--background-color);
     z-index: 1000;
@@ -8,7 +7,6 @@
 
 .page-section:nth-child(odd){
     display: flex;
-    border: 1px solid red;
     flex:1;
     background-color: var(--alt-background-color);
     z-index: 1000;
@@ -19,11 +17,11 @@
 }
 
 .page-section-image {
-    border: solid 1px black;
+    /* border: solid 1px black; */
     flex:1;
 }
 
 .page-section-text {
-    border: solid 1px white;
+    /* border: solid 1px white; */
     flex:1;
 }

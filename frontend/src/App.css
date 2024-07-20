@@ -1,5 +1,11 @@
 .App {
+  /* border: 2px solid black; */
   text-align: center;
+  display:flex;
+}
+.pages {
+  /* border: 1px solid blue; */
+  flex:1;
 }
 
 #particles-js {
