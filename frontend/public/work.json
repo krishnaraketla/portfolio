@@ -1,0 +1,49 @@
+[
+    {
+      "title": "Graduate Teaching Assistant",
+      "company": "Northeastern University",
+      "location": "Boston, MA",
+      "duration": "Jan 2024 – April 2024",
+      "bullets": [
+        "Mentored and guided 68 students in Natural Language Processing, enhancing their understanding by addressing queries and providing detailed evaluations of their work."
+      ],
+      "keywords": ["Teaching", "Natural Language Processing", "Mentoring"]
+    },
+    {
+      "title": "Intermediate Software Engineer",
+      "company": "HP Inc",
+      "location": "Bangalore, India",
+      "duration": "Jan 2022 – Nov 2022",
+      "bullets": [
+        "Administered Fax UI workflow development using QML and JavaScript, developing over 50 feature specifications and facilitating cross functional team collaboration for design and API integration, achieving a 20% faster development cycle.",
+        "Pioneered critical features: Schedule Fax, Forward Fax, Fax UI for enterprise models, by integrating Agile development practices and computer engineering principles to streamline development and ensure high reliability through rigorous unit testing.",
+        "Guided two interns through robust microservice development for the Job layer, meticulously overseeing code quality and integration, culminating in the seamless delivery of enhanced UI features."
+      ],
+      "keywords": ["QML", "JavaScript", "Agile", "Microservices", "UI Development"]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "HP Inc",
+      "location": "Bangalore, India",
+      "duration": "Aug 2019 – Dec 2021",
+      "bullets": [
+        "Revamped fax system data management from XML to Google FlatBuffers, catering to a new microservices architecture, which streamlined storage efficiency. Significantly boosting system performance and reducing memory overhead by 65.12%.",
+        "Designed a modular data collection interface across the network and job layers of the protocol stack in C++, leveraging abstract factory patterns and interfaces to ensure component decoupling, reducing issue debugging time by 35%.",
+        "Implemented the Common Data Model (CDM) adapters for Receive Fax job ticket microservice to enable seamless communication between the firmware resource and application microservices.",
+        "Architected and built the Synaptics Build Server using advanced bash scripting to automate modem firmware builds, enhancing productivity and compliance with legal restrictions on code sharing.",
+        "Enhanced fax components' reliability by increasing unit test coverage by 40% through comprehensive Google Test suites for FaxControl, AnalogFax, and SendFax components."
+      ],
+      "keywords": ["C++", "Microservices", "Google FlatBuffers", "Bash Scripting", "Unit Testing"]
+    },
+    {
+      "title": "Research and Development Intern",
+      "company": "HP Inc",
+      "location": "Bangalore, India",
+      "duration": "Jan 2019 – July 2019",
+      "bullets": [
+        "Identified failure commits by automating the testing process using a binary search algorithm to efficiently sift through last known pass and most recent fail, expediting the process from 3-man days to 20 minutes.",
+        "Engineered a model of firmware architecture using C# .NET framework for printer's native code to expedite the integration of a performance profiling tool with the firmware, thereby uncovering issues in advance"
+      ],
+      "keywords": ["Automation", "Binary Search", "C#", ".NET", "Firmware"]
+    }
+  ]

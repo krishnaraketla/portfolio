@@ -1,9 +1,11 @@
 .hero {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 80%;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
     width: 100%;
+    min-width: 900px;
+    min-height: 500px;
     background-color: var(--background-color);
 }
 

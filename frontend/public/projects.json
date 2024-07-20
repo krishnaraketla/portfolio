@@ -1,0 +1,61 @@
+[
+    {
+      "title": "MyBookShelf",
+      "bullets": [
+        "Engineered a responsive and intuitive user interface using React, implementing dynamic components for seamless user interactions, achieving an average page load time of 1s.",
+        "Designed a scalable MongoDB database with comprehensive schemas for users, bookshelves, and books, capable of handling high volume data with peak loads of up to 10,000 concurrent users.",
+        "Implemented secure user authentication and session management using JSON Web Tokens, ensuring robust protection and continuous verification of user-specific access.",
+        "Developed RESTful APIs using Express.js and Node.js to facilitate efficient communication between the frontend and backend systems, ensuring response times maintained under 200 milliseconds, laying the groundwork for a reliable and responsive application.",
+        "Implemented automated testing using React Testing Library and Jest, achieving 90% coverage."
+      ],
+      "keywords": ["React", "Node", "Express", "Mongoose", "MongoDB", "JWT", "Locust", "MERN", "Full-Stack", "Front-End", "Back-End", "UI", "UX"]
+    },
+    {
+      "title": "Book Recommendation System",
+      "bullets": [
+        "Processed and refined a dataset of approximately 2.3 million books and over 228 million user interactions, providing a robust foundation for developing book recommendation algorithms.",
+        "Engineered a sophisticated hybrid collaborative filtering system, integrating user-user and item-item, and SVD achieving 85% personalization accuracy.",
+        "Orchestrated Docker containerization of the model and engineered RESTful APIs using FastAPI, boosting deployment efficiency and facilitating seamless integration with front-end applications.",
+        "Developing an advanced neural collaborative filtering model to address critical challenges like targeting data sparsity and scalability issues, while enhancing overall prediction accuracy."
+      ],
+      "keywords": ["ML", "Python", "Docker", "GCP", "Kubernetes", "FastAPI", "SciPy"]
+    },
+    {
+      "title": "Advanced Image Captioning",
+      "bullets": [
+        "Developed and compared advanced image captioning models (ResNet50-LSTM and DenseNet201-LSTM) using the Flickr8k dataset, enhancing automated description capabilities.",
+        "Implemented transfer learning with pre-trained CNNs and LSTM networks, employing techniques like gradient clipping, learning rate scheduling, and early stopping to optimize model performance.",
+        "Optimized image captioning model using DenseNet201-LSTM architecture, achieving superior performance with ROUGE-1 F1-score of 0.208, ROUGE-2 F1-score of 0.052, and ROUGE-L F1-score of 0.196, outperforming the baseline ResNet50-LSTM model by an average of 15% across all metrics."
+      ],
+      "keywords": ["ML", "Python", "TensorFlow", "Pandas", "Keras"]
+    },
+    {
+      "title": "Vertical Search Engine",
+      "bullets": [
+        "Developed a vertical search engine for hurricane/tropical storm data, implementing TF-IDF, BM25, and LM-Laplace retrieval models. Crawled and indexed 40,000 documents, improving search efficiency by 10% over baseline.",
+        "Architected a custom indexing system and an ETL pipeline using RocksDB and gzip compression to replace Elasticsearch.",
+        "Designed a frontier management system with min-heap, optimizing crawling efficiency by 40% and reducing query response times by 30%.",
+        "Computed PageRank for all crawled pages to enhance search result relevance and quality."
+      ],
+      "keywords": ["NLP", "ML", "Python", "RocksDB", "Elasticsearch", "Algorithms", "ETL"]
+    },
+    {
+      "title": "Text Summarisation of Research Papers",
+      "bullets": [
+        "Engineered an abstractive text summarization framework by fine-tuning a BERT-based sequence-to-sequence model for generating concise and accurate summaries.",
+        "Processed and cleaned the CNN/Daily Mail dataset to ensure high-quality training data.",
+        "Developed an algorithm to extract reading order from PDF documents using OCR, leveraging layoutparser and pdfplumber, which enhanced the retrieval of query relevant sections.",
+        "Achieved a ROUGE-2 score of 16.10, validating model performance, integrated MiniLM-L6-v2 for advanced text processing."
+      ],
+      "keywords": ["NLP", "ML", "Python", "LLM", "Transformers", "OCR"]
+    },
+    {
+      "title": "Image Processing Application",
+      "bullets": [
+        "Developed a Java based image processing application with Java 8 and Swing, supporting multiple formats such as PPM, JPEG, BMP, and PNG, emphasizing clean, modular OOD for enhanced maintainability.",
+        "Implemented MVC (Model-View-Controller) patterns, encapsulation, and dynamic dispatch techniques to optimize the application's scalability and performance.",
+        "Directed continuous unit testing efforts utilizing JUnit 4 to ensure reliable software development and efficient debugging processes."
+      ],
+      "keywords": ["Object Oriented Design", "Java", "Junit"]
+    }
+  ]

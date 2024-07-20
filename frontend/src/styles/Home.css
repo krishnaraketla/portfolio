@@ -1,7 +1,13 @@
 .home {
     display: flex;
     flex-direction: column; /* Ensures vertical layout */
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
     min-height: 100vh;
+}
+
+.pages-holder {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
