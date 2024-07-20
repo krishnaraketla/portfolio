@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import ParticlesComponent from "./ParticlesComponent";
 import '../styles/HeroSection.css';
 
-const roles = ["Software Engineer.", "Full Stack Web Developer.", "ML/AI Engineer.","Reader.", "Painter."];
+const roles = ["Software Engineer.", "Full Stack Web Developer.", "ML/AI Engineer.", "Reader.", "Painter."];
 
 const HeroSection = () => {
     const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
@@ -15,8 +15,8 @@ const HeroSection = () => {
             setTimeout(() => {
                 setCurrentRoleIndex(prevIndex => (prevIndex + 1) % roles.length);
                 setIsVisible(true);
-            }, 500); // Update during the invisible phase
-        }, 3000); // Matches the CSS animation time
+            }, 500);
+        }, 3000);
 
         return () => clearInterval(textChangeInterval);
     }, []);
@@ -26,7 +26,13 @@ const HeroSection = () => {
             <ParticlesComponent />
             <div className="hero">
                 <div className="hero-card"> 
-                    <h1>Hello, I'm Krishna.<br />I'm a <span className={`changing-text ${!isVisible ? 'invisible' : ''}`}>{roles[currentRoleIndex]}</span></h1>
+                <h1>
+                    Hello, I'm Krishna.<br />I'm a <span className="changing-text-container">
+                        <span className={`changing-text ${!isVisible ? 'invisible' : ''}`}>
+                            {roles[currentRoleIndex]}
+                        </span>
+                            </span>
+</h1>
                 </div>
             </div>
         </>
