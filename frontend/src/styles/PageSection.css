@@ -23,7 +23,7 @@
       color: var(--title-text-color);
       font-family: Malayalam MN;
       line-height: 91.16px;
-      text-align: left;
+      text-align: center;
   }
   
   .page-section-text {
@@ -31,7 +31,6 @@
       color: var(--body-text-color);
       font-size: 1.125rem;
       line-height: 1.6;
-      max-width: 800px;
       margin: 0;
       font-family: Malayalam MN;
       text-align: left;
