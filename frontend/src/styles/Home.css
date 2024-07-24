@@ -1,9 +1,8 @@
 .home {
     display: flex;
     flex-direction: column; /* Ensures vertical layout */
-    height: 200vh;
     flex:1;
-    min-height: 100vh;
+    overflow: scroll;
 }
 
 .pages-holder {

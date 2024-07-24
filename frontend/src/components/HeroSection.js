@@ -32,7 +32,7 @@ const HeroSection = () => {
                             {roles[currentRoleIndex]}
                         </span>
                             </span>
-</h1>
+                </h1>
                 </div>
             </div>
         </>
