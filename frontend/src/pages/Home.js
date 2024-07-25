@@ -20,15 +20,15 @@ const Home = () => {
                 />
                 <PageSection 
                     title="Current Favorite Read"
-                    image="/path/to/book-image.jpg"
-                    text="My current favorite read is 'The Bell Jar by Sylvia Plath'. Her evocative prose gives a new perspective into the human condition."
+                    image="/book.jpg"
+                    text="My current favorite read is 'Project Hail Mary by Andy Wier'. If you love space and science fiction, this book is a must read for you. Andy Wier takes the you across galaxies on a mission to save planet Earth and by the time you are done with this book you are left with awe at the universe and an existential crisis."
                 />
                 <PageSection 
                     title="Artworks"
                     images={[
-                        "/path/to/artwork1.jpg",
-                        "/path/to/artwork2.jpg",
-                        "/path/to/artwork3.jpg"
+                        "/artwork1.jpg",
+                        "/artwork2.jpg",
+                        "/artwork3.jpg"
                     ]}
                 />
             </div>

@@ -5,7 +5,7 @@
     align-items: center;
     min-height: 90vh;
     flex: 2;
-    width: 100%;
+    width: 100vw;
     background-color: var(--background-color);
     padding: 20px;
     box-sizing: border-box;
