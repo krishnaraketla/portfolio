@@ -1,5 +1,5 @@
 :root {
-  --background-color: #778899; /* Light Slate Gray */
+  --background-color: #000000; /* Light Slate Gray */
   --title-text-color: #ffffff; /* Dark Slate Blue */
   --title-text-hover: #6A5ACD; /* Slate Blue */
   --body-text-color: #ffffff; /* Dim Gray */
@@ -9,7 +9,7 @@
   --nav-arrows: var(--title-text-color);
   --nav-arrows-hover: var(--title-text-hover);
 
-  --alt-background-color: #90a1b8;
+  --alt-background-color: #282828;
   --alt-title-text-color: #2F4F4F; /* Dark Slate Gray */
   --alt-title-text-hover: #556B2F; /* Dark Olive Green */
   --alt-body-text-color: #696969; /* Dim Gray */
