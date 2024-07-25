@@ -2,7 +2,7 @@
   /* border: 2px solid black; */
   text-align: center;
   display:flex;
-  overflow: auto;
+  overflow:visible;
 }
 .pages {
   /* border: 1px solid blue; */
@@ -14,3 +14,4 @@
   width: 100%;
   height: 100%;
 }
+

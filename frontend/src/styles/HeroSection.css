@@ -83,12 +83,12 @@
     visibility: hidden;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .hero-card h1 {
         font-size: 2rem;
     }
     .changing-text-container {
-        width: 600px; /* Adjust for smaller screens */
+        width: 600px;
     }
 }
 
@@ -97,6 +97,6 @@
         font-size: 1.5rem;
     }
     .changing-text-container {
-        width: 600px; /* Adjust for even smaller screens */
+        width: 600px;
     }
-}
+} */
