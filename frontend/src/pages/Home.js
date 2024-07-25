@@ -21,7 +21,7 @@ const Home = () => {
                 <PageSection 
                     title="Current Favorite Read"
                     image="/path/to/book-image.jpg"
-                    text="My current favorite read is 'The Great Gatsby'. Here is a brief review of the book: A classic novel set in the 1920s, exploring themes of wealth, society, and the American Dream."
+                    text="My current favorite read is 'The Bell Jar by Sylvia Plath'. Her evocative prose gives a new perspective into the human condition."
                 />
                 <PageSection 
                     title="Artworks"

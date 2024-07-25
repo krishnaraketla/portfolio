@@ -2,7 +2,7 @@
       display: flex;
       padding: 20px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      min-height: 60vh;
+      /* min-height: 60vh; */
       z-index: 1000;
   }
   
@@ -27,6 +27,7 @@
   }
   
   .page-section-text {
+      padding: 100px;
       flex: 1;
       color: var(--body-text-color);
       font-size: 1.125rem;
@@ -34,6 +35,9 @@
       margin: 0;
       font-family: Malayalam MN;
       text-align: left;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
   }
   
   .page-section-text p {
@@ -43,6 +47,7 @@
       font-size: 20px;
       font-weight: 400;
       line-height: 28.49px;
+      text-align: justify;
   }
   
   .page-section-image {
