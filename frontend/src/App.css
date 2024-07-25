@@ -2,6 +2,7 @@
   /* border: 2px solid black; */
   text-align: center;
   display:flex;
+  overflow: auto;
 }
 .pages {
   /* border: 1px solid blue; */

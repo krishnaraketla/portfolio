@@ -1,11 +1,10 @@
 .hero {
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 90vh;
     flex: 2;
-    width: 100vw;
+    width: 100%;
     background-color: var(--background-color);
     padding: 20px;
     box-sizing: border-box;
