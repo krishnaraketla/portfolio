@@ -15,4 +15,8 @@
   --alt-body-text-color: #696969; /* Dim Gray */
   --alt-caption-text-color: #A9A9A9; /* Dark Gray */
   --alt-background-hover-color: #D3D3D3; /* Light Gray */
+
+  display: flex;
+  height: 100vh;
+  width: 100vw;
 }

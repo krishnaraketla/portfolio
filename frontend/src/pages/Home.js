@@ -8,7 +8,7 @@ const Home = () => {
         <div className="home">
             <Navbar />
             <HeroSection />
-            <div className="pages-holder">
+            <section className="pages-holder">
                 <PageSection 
                     title="About Me"
                     text="Hello! I'm Krishna, currently a student at Northeastern University pursuing my Master's in Computer Science. My journey in the tech world has been fueled by a passion for solving complex problems and exploring innovative solutions. When I'm not immersed in my studies, you'll often find me with a book in hand or painting. I'm currently building MyBookshelf.com, a platform designed to help users manage their book collections, discover bestsellers, and receive personalized recommendations. This project combines my love for technology and literature, allowing me to create something valuable for fellow book enthusiasts."
@@ -31,7 +31,7 @@ const Home = () => {
                         "/artwork3.jpg"
                     ]}
                 />
-            </div>
+            </section>
         </div>
     );
 };

@@ -8,7 +8,7 @@ function ParticlesComponent() {
     });
   }, []);
 
-  return <div id="particles-js"></div>;
+  return <section id="particles-js"></section>;
 }
 
 export default ParticlesComponent;

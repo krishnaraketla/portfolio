@@ -4,7 +4,7 @@ import '../styles/PageSection.css';
 const PageSection = ({ title, image, text, images }) => {
     console.log(image);
     return (
-        <div className="page-section">
+        <section className="page-section">
             {image && <div className='page-section-image'> <img src={image} alt='page' /></div>}
             <div className='page-section-text'>
                 <div className='page-section-title'>{title}</div>
@@ -17,7 +17,7 @@ const PageSection = ({ title, image, text, images }) => {
                     </div>
                 )}
             </div>
-        </div>
+        </section>
     );
 };
 

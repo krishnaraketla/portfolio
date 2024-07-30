@@ -22,20 +22,18 @@ const HeroSection = () => {
     }, []);
 
     return (
-        <>
+        <div className="hero">
             <ParticlesComponent />
-            <div className="hero">
-                <div className="hero-card"> 
-                <h1>
-                    Hello, I'm Krishna.<br />I'm a <span className="changing-text-container">
-                        <span className={`changing-text ${!isVisible ? 'invisible' : ''}`}>
-                            {roles[currentRoleIndex]}
+            <div className="hero-card"> 
+            <h1>
+                Hello, I'm Krishna.<br />I'm a <span className="changing-text-container">
+                    <span className={`changing-text ${!isVisible ? 'invisible' : ''}`}>
+                        {roles[currentRoleIndex]}
+                    </span>
                         </span>
-                            </span>
-                </h1>
-                </div>
+            </h1>
             </div>
-        </>
+        </div>
     );
 }
 

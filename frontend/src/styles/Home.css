@@ -1,8 +1,9 @@
 .home {
+    /* border:solid red 1px; */
     display: flex;
-    flex-direction: column; /* Ensures vertical layout */
+    flex-direction: column;
     flex:1;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 
 .pages-holder {
