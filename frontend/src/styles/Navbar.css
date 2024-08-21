@@ -1,76 +1,68 @@
-.navbar {
+.primary-header{
+    border: 1px solid red;
     display: flex;
-    justify-content: space-between;
+    gap: var(--gap, 1rem);
     align-items: center;
-    background-color: var(--background-color);
-    color: white;
-    font-family: Arial, sans-serif;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 55px;
-    z-index: 5000;
-    padding: 0 20px;
-    box-sizing: border-box;
+    justify-content: space-between;
+    z-index: 99999;
 }
 
-.navbar-brand {
-    font-size: 24px;
+.logo{
+    margin: 1rem;
+    text-decoration: none;
+    color: #C5C6C7;
+    font-size: 1.2rem;
     font-weight: bold;
-    flex: 0 0 auto;
+    letter-spacing: 2;
+    text-transform: uppercase;
 }
 
-.navbar-brand a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.navbar-links {
+.primary-navigation{
     display: flex;
-    justify-content: flex-end;
-    flex: 1 1 auto;
+    margin-inline: 2rem;
+    padding: 0;
+    gap: var(--gap, 1rem);
+    list-style-type: none;
 }
 
-.navbar-links a {
-    color: white;
+.primary-navigation li {
+    display: flex;
+    align-items: center;
+    font-family: 'ff sans cond';
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2;
+}
+
+.primary-navigation li span {
+    font-weight: bold;
+    color: red;
+}
+
+.primary-navigation li a {
     text-decoration: none;
-    padding: 8px 16px;
-    transition: color 0.3s;
-    white-space: nowrap;
+    color: #C5C6C7;
+    transition: color 0.3s ease-in-out; /* Smooth color transition on hover */
 }
 
-.navbar-links a:hover {
-    color: #f0f0f0;
+.primary-navigation a > span {
+    margin-inline-end: .5em;
 }
 
-/* @media (max-width: 768px) {
-    .navbar {
-        padding: 0 10px;
-    }
-
-    .navbar-brand {
-        font-size: 20px;
-    }
-
-    .navbar-links a {
-        font-size: 14px;
-        padding: 6px 12px;
-    }
+.primary-navigation li a:hover {
+    color: #FFD700 /* Change color on hover */
 }
 
-@media (max-width: 480px) {
-    .navbar {
-        padding: 0 5px;
-    }
+.primary-navigation li span, .primary-navigation li a {
+    cursor: pointer;
+}
 
-    .navbar-brand {
-        font-size: 18px;
+@media (max-width: 40em) {
+    .primary-header{
+        padding: 1rem;
     }
-
-    .navbar-links a {
-        font-size: 12px;
-        padding: 4px 8px;
+    .primary-navigation {
+        position: fixed;
     }
-} */
+}

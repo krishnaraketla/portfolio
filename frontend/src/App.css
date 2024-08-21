@@ -1,15 +1,7 @@
 .App {
-  /* border: solid 10px red; */
-  height: 100dvh;
-  width: 100dvw;
-  text-align: center;
-  display:block;
-  overflow:visible;
+
 }
 .pages {
-  /* border: 1px solid blue; */
-  height: 100%;
-  width: 100%;
-  display: flex;
+  /* border: 1px solid red; */
 }
 
