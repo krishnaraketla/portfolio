@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-between;
     z-index: 99999;
+    padding: 1rem;
 }
 
 .logo{
@@ -19,15 +20,19 @@
 
 .primary-navigation{
     display: flex;
+    margin: 0;
     margin-inline: 2rem;
     padding: 0;
     gap: var(--gap, 1rem);
     list-style-type: none;
+
+    background: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(1rem);
 }
 
 .primary-navigation li {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     font-family: 'ff sans cond';
     font-size: 1rem;
     font-weight: 500;
@@ -60,9 +65,14 @@
 
 @media (max-width: 40em) {
     .primary-header{
-        padding: 1rem;
+
     }
     .primary-navigation {
+        flex-direction: column;
+        margin-inline: 0;
         position: fixed;
+        padding: min(30vh, 10rem) 2rem;
+        inset: 0 0 0 35%;
+        z-index: 9999;
     }
 }
