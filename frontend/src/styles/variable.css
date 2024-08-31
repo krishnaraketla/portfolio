@@ -1,19 +1,17 @@
 :root {
   --background-color: #CCF2D3;
-  --title-text-color: #000000;
-  --title-text-hover: #000000;
-  --body-text-color: #ffffff; 
-  --caption-text-color: #000000;
-  --background-hover-color: #B0C4DE;
-  --border: 1px solid #D3D3D3;
-  --nav-arrows: var(--title-text-color);
-  --nav-arrows-hover: var(--title-text-hover);
+  --title-text-color: #00332C; /* Dark teal: good contrast with mint */
+  --title-text-hover: #005047; /* Slightly lighter teal for hover */
+  --body-text-color: #333333; /* Dark gray: readable and less stark than black */
+  --caption-text-color: #004D40; /* Teal: complements the background and title text */
+  --background-hover-color: #B0E0D6; /* Softened mint: slightly darker for hover effect */
+  --border: 1px solid #8AB6A5; /* Medium green-gray for subtle border */
 
-  --alt-background-color: #282828;
-  --alt-title-text-color: #000000;
-  --alt-title-text-hover: #000000;
-  --alt-body-text-color: #696969;
-  --alt-caption-text-color: #000000;
-  --alt-background-hover-color: #000000;
+  --alt-background-color: #B2DFDB; /* Light aqua-green: a softer, lighter contrast to mint green */
+  --alt-title-text-color: #00474F; /* Dark cyan: still readable, softer than black */
+  --alt-title-text-hover: #00717A; /* Medium teal: a slightly more vivid color for hover */
+  --alt-body-text-color: #4F6367; /* Muted gray-green: gentle on the eyes */
+  --alt-caption-text-color: #00474F; /* Matches title text for consistency */
+  --alt-background-hover-color: #A0C4C4; /* Slightly darker aqua-green: for a gentle hover effect */
 
 }

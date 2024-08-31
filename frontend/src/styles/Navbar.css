@@ -9,8 +9,7 @@
 
     position: fixed;
     width: 100%;
-    top: 0;
-    /* background-color: var(--alt-background-color); */
+    top: 0;    
 }
 
 .logo{
@@ -50,7 +49,7 @@
 
 .primary-navigation li span {
     font-weight: bold;
-    color: red;
+    color: #800020;
 }
 
 .primary-navigation li a {
@@ -64,7 +63,7 @@
 }
 
 .primary-navigation li a:hover {
-    color: #FFFACD /* Change color on hover */
+    color: #800020
 }
 
 .primary-navigation li span, .primary-navigation li a {
@@ -73,7 +72,7 @@
 
 @media (max-width: 40em) {
     .primary-header{
-
+        background: hsl(0 0% 100% / 0.5);
     }
     .primary-navigation {
         flex-direction: column;
@@ -81,7 +80,7 @@
         position: fixed;
         padding: min(30vh, 10rem) 2rem;
         inset: 0 0 0 35%;
-        z-index: 1000;
+        z-index: calc(99999+1);
         --gap: 2em;
 
         transition: transform 0.3s ease-in-out; /* Smooth slide transition */
@@ -90,8 +89,8 @@
         overflow-y: auto; /* Allows scrolling within the menu */
         height: 100vh;
 
-        background: hsl(0 0% 100% / 0.1);
-        backdrop-filter: blur(1rem);
+        background: hsl(0 0% 100% / 0.3);
+        backdrop-filter: blur(1.5rem);
     }
 
     .primary-navigation.expanded {
@@ -127,6 +126,6 @@
 
     .primary-header{
         background: hsl(0 0% 100% / 0.1);
-        backdrop-filter: blur(1rem);
+        backdrop-filter: blur(0.5rem);
     }
 }

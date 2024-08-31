@@ -1,7 +1,7 @@
 .hero {
     display: flex;
     flex: 1;
-    height: 90vh;
+    height: 95vh;
     min-height:350px;
     overflow: hidden;
 }
@@ -51,7 +51,7 @@
 .hero-text .changing-text {
     display: inline-block;
     animation: scrollUp 3s linear infinite;
-    color: red;
+    color: #800020;
     text-align: left;
 }
 
