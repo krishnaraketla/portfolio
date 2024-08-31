@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <header className="primary-header">
             <div>
-                <Link className='logo' to="/">Krishna</Link>
+                <Link className='logo' to="/"><img src="/logo.png" alt="Krishna Logo" className="logo-image" /></Link>
             </div>
             <button
                 className="mobile-nav-toggle"
