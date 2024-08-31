@@ -1,21 +1,23 @@
 .page-section {
+    border: 1px solid red;
     flex:1;
     display: flex;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     min-height: 60vh;
-    z-index: 1000;
     align-items: center;
 }
   
 .page-section:nth-child(even) {
     background-color: var(--background-color);
     flex-direction: row;
+    z-index: 999999;
+    opacity: 1;
 }
 
 .page-section:nth-child(odd) {
     background-color: var(--alt-background-color);
     flex-direction: row-reverse;
+    z-index: 999999;
+    opacity: 1;
 }
 
 .page-section-title {

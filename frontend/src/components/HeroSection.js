@@ -23,8 +23,7 @@ const HeroSection = () => {
 
     return (
         <div className="hero">
-                        <ParticlesComponent />
-
+            <ParticlesComponent />
             <div className="hero-card"> 
             <span className='hero-text'>
                 Hello, I'm Krishna.<br />I'm a <span className="changing-text-container">
