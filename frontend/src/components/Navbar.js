@@ -7,7 +7,8 @@ const Navbar = () => {
 
     const handleToggle = () => {
         setIsNavExpanded(!isNavExpanded);
-    };
+        document.body.classList.toggle('nav-expanded', !isNavExpanded); // Toggles body scroll
+    };  
 
     return (
         <header className="primary-header">

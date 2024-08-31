@@ -5,7 +5,12 @@
     align-items: center;
     justify-content: space-between;
     z-index: 99999;
-    padding: 1rem;
+    padding: 1.25rem 0 1rem;
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--alt-background-color);
 }
 
 .logo{
@@ -83,6 +88,9 @@
 
         transition: transform 0.3s ease-in-out; /* Smooth slide transition */
         transform: translateX(100%); /* Start hidden */
+
+        overflow-y: auto; /* Allows scrolling within the menu */
+        height: 100vh;
     }
 
     .primary-navigation.expanded {
@@ -104,5 +112,9 @@
 
     .mobile-nav-toggle i {
         font-size: 1.3rem;
+    }
+
+    body.nav-expanded {
+        overflow: hidden; /* Prevents scrolling of the body when nav is expanded */
     }
 }

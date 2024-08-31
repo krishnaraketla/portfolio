@@ -1,8 +1,8 @@
 .hero {
-    /* border: 1px solid red; */
     display: flex;
     flex: 1;
-    min-height:60vh;
+    height: 60vh;
+    min-height:350px;
     overflow: hidden;
 }
 
@@ -15,18 +15,20 @@
   
 .hero-card {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     background-color: var(--background-color);
-    min-width: 100%;
+    min-width: 100%;   
 }
 
 .hero-text {
+    flex: 1;
     position: absolute;
     left: 2.5rem;
-    top: 15rem;
+    /* top: 15rem; */
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    line-height: 1.2;
+    max-width: 100%;
     color: var(--title-text-color);
     margin: 0;
     user-select: none;

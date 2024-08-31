@@ -8,7 +8,10 @@ const Home = () => {
         <div className="home">
             <Navbar />
             <HeroSection />
-            <PageSection />
+            <div className="pages-holder">
+                <PageSection 
+                />
+            </div>
         </div>
     );
 };

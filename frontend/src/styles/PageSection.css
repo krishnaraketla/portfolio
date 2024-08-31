@@ -1,5 +1,4 @@
 .page-section {
-    border: 1px solid red;
     flex:1;
     display: flex;
     min-height: 60vh;
@@ -9,14 +8,14 @@
 .page-section:nth-child(even) {
     background-color: var(--background-color);
     flex-direction: row;
-    z-index: 999999;
+    z-index: 1000;
     opacity: 1;
 }
 
 .page-section:nth-child(odd) {
     background-color: var(--alt-background-color);
     flex-direction: row-reverse;
-    z-index: 999999;
+    z-index: 1000;
     opacity: 1;
 }
 
