@@ -1,54 +1,36 @@
 .hero {
+    /* border: 1px solid red; */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 95%;
     flex: 1;
-    background-color: var(--background-color);
-    /* padding: 20px; */
-    box-sizing: border-box;
+    min-height:60vh;
 }
+
 #particles-js {
     position:fixed;
     flex:1;
-    width: 100%;
-    height: 100%;
   }
   
 .hero-card {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    text-align: left;
-    margin: auto;
-    max-width: 90%;
-    width: 800px;
-    height: auto;
-    min-height: 300px;
-    /* z-index: 1000; */
     background-color: var(--background-color);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 20px;
-    box-sizing: border-box;
+    min-width: 100%;
 }
 
-.hero-card h1 {
-    font-size: 2.5rem;
+.hero-text {
+    position: absolute;
+    left: 2.5rem;
+    top: 15rem;
     font-weight: bold;
+    font-size: 2.5em;
     color: var(--title-text-color);
     margin: 0;
-    padding: 1rem;
-    line-height: 1.5;
-    letter-spacing: 0.1rem;
     user-select: none;
 }
 
-.hero-card h1::before {
+.hero-text::before {
     content: attr(data-text);
-    position: absolute;
-    left: 0;
-    right: 0;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(200, 200, 200, 1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     z-index: -1;
@@ -56,17 +38,16 @@
 
 .changing-text-container {
     display: inline-block;
-    width: 600px;
     vertical-align: bottom;
     overflow: hidden;
+    text-align: left;
 }
 
-.hero-card h1 .changing-text {
+.hero-text .changing-text {
     display: inline-block;
-    white-space: nowrap;
-    text-align: left;
     animation: scrollUp 3s linear infinite;
     color: red;
+    text-align: left;
 }
 
 @keyframes scrollUp {
@@ -87,21 +68,3 @@
 .invisible {
     visibility: hidden;
 }
-
-/* @media (max-width: 768px) {
-    .hero-card h1 {
-        font-size: 2rem;
-    }
-    .changing-text-container {
-        width: 600px;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero-card h1 {
-        font-size: 1.5rem;
-    }
-    .changing-text-container {
-        width: 600px;
-    }
-} */

@@ -23,15 +23,16 @@ const HeroSection = () => {
 
     return (
         <div className="hero">
-            <ParticlesComponent />
+                        <ParticlesComponent />
+
             <div className="hero-card"> 
-            <h1>
+            <span className='hero-text'>
                 Hello, I'm Krishna.<br />I'm a <span className="changing-text-container">
                     <span className={`changing-text ${!isVisible ? 'invisible' : ''}`}>
                         {roles[currentRoleIndex]}
                     </span>
                         </span>
-            </h1>
+            </span>
             </div>
         </div>
     );
