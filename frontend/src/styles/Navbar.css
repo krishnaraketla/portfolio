@@ -17,7 +17,7 @@
 }
 
 .logo-image {
-    width: 2.5rem; /* Adjust to the desired size */
+    width: 2rem; /* Adjust to the desired size */
     height: auto; /* Maintain the aspect ratio */
 }
 
@@ -104,7 +104,7 @@
         color: var(--title-text-color);
         width: 2rem;
         aspect-ratio: 1;
-        top: 1.75rem;
+        top: 1.5rem;
         right: 1rem;
         border: 0;
     }
