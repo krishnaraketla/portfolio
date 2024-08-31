@@ -10,15 +10,15 @@
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: var(--alt-background-color);
+    /* background-color: var(--alt-background-color); */
 }
 
 .logo{
     margin: 1rem;
     text-decoration: none;
-    color: #C5C6C7;
+    color: var(--title-text-color);
     font-size: 1.2rem;
-    font-weight: bold;
+    /* font-weight: bold; */
     letter-spacing: 2;
     text-transform: uppercase;
 }
@@ -35,15 +35,13 @@
     gap: var(--gap, 1rem);
     list-style-type: none;
 
-    background: hsl(0 0% 100% / 0.1);
-    backdrop-filter: blur(1rem);
+    
 
 }
 
 .primary-navigation li {
     display: flex;
     /* align-items: center; */
-    font-family: 'ff sans cond';
     font-size: 1rem;
     font-weight: 500;
     text-transform: uppercase;
@@ -57,7 +55,7 @@
 
 .primary-navigation li a {
     text-decoration: none;
-    color: #C5C6C7;
+    color: var(--title-text-color);
     transition: color 0.3s ease-in-out; /* Smooth color transition on hover */
 }
 
@@ -66,7 +64,7 @@
 }
 
 .primary-navigation li a:hover {
-    color: #FFD700 /* Change color on hover */
+    color: #FFFACD /* Change color on hover */
 }
 
 .primary-navigation li span, .primary-navigation li a {
@@ -91,6 +89,9 @@
 
         overflow-y: auto; /* Allows scrolling within the menu */
         height: 100vh;
+
+        background: hsl(0 0% 100% / 0.1);
+        backdrop-filter: blur(1rem);
     }
 
     .primary-navigation.expanded {
@@ -102,7 +103,7 @@
         position: absolute;
         z-index: 9999;
         background: none;
-        color: #C5C6C7;
+        color: var(--title-text-color);
         width: 2rem;
         aspect-ratio: 1;
         top: 1rem;
@@ -116,5 +117,16 @@
 
     body.nav-expanded {
         overflow: hidden; /* Prevents scrolling of the body when nav is expanded */
+    }
+}
+
+@media (min-width: 40em) {
+    .primary-navigation {
+        padding: 1rem;
+    }
+
+    .primary-header{
+        background: hsl(0 0% 100% / 0.1);
+        backdrop-filter: blur(1rem);
     }
 }

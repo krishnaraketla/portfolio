@@ -1,7 +1,7 @@
 .hero {
     display: flex;
     flex: 1;
-    height: 60vh;
+    height: 90vh;
     min-height:350px;
     overflow: hidden;
 }
@@ -10,12 +10,13 @@
     position:absolute;
     flex:1;
     width: 100%;
-    height: 60vh;
+    height: 90vh;
   }
   
 .hero-card {
     display: flex;
     align-items: center;
+    text-align: left;
     background-color: var(--background-color);
     min-width: 100%;   
 }
@@ -24,8 +25,7 @@
     flex: 1;
     position: absolute;
     left: 2.5rem;
-    /* top: 15rem; */
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: clamp(1.5rem, 4vw, 2.5rem);
     line-height: 1.2;
     max-width: 100%;
@@ -72,4 +72,10 @@
 
 .invisible {
     visibility: hidden;
+}
+
+@media (min-width: 40em) { /* For larger screens */
+    .hero-text {
+        left: calc(50% - 250px); /* Centers text dynamically, adjust 250px to half of the expected width */
+    }
 }

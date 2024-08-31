@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import ParticlesComponent from "./ParticlesComponent";
 import '../styles/HeroSection.css';
 
-const roles = ["Software Engineer.", "Full Stack Web Developer.", "ML/AI Engineer.", "Reader.", "Painter."];
+const roles = ["Software Engineer.", "Web Developer.", "ML/AI Engineer.", "Reader.", "Painter."];
 
 const HeroSection = () => {
     const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
