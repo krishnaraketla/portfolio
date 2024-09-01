@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import ParticlesComponent from './components/ParticlesComponent';
+import Projects from './pages/Projects';
 import './styles/variable.css';
 
 function App() {
@@ -13,6 +13,10 @@ function App() {
               <Route
                 path="/"
                 element= { <Home />}
+              />
+              <Route
+                path="/projects"
+                element= { <Projects />}
               />
             </Routes>
           </div>

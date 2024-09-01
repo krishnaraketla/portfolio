@@ -24,7 +24,7 @@ const HeroSection = () => {
     return (
         <div className="hero">
             <ParticlesComponent />
-            <div className="hero-card"> 
+            <div className="hero-card gradient-background"> 
             <span className='hero-text'>
                 Hello, I'm Krishna.<br />I'm a <span className="changing-text-container">
                     <span className={`changing-text ${!isVisible ? 'invisible' : ''}`}>
