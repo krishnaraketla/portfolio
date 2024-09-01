@@ -1,17 +1,65 @@
 :root {
-  --background-color: #CCF2D3;
-  --title-text-color: #00332C; /* Dark teal: good contrast with mint */
-  --title-text-hover: #005047; /* Slightly lighter teal for hover */
-  --body-text-color: #333333; /* Dark gray: readable and less stark than black */
-  --caption-text-color: #004D40; /* Teal: complements the background and title text */
-  --background-hover-color: #B0E0D6; /* Softened mint: slightly darker for hover effect */
-  --border: 1px solid #8AB6A5; /* Medium green-gray for subtle border */
+  --title-text-color: #00332C; 
+  --title-text-hover: #005047;
+  --body-text-color: #333333;
+  --caption-text-color: #004D40;
+  --background-hover-color: #B0E0D6;
+  --border: 1px solid #8AB6A5;
 
-  --alt-background-color: #B2DFDB; /* Light aqua-green: a softer, lighter contrast to mint green */
-  --alt-title-text-color: #00474F; /* Dark cyan: still readable, softer than black */
-  --alt-title-text-hover: #00717A; /* Medium teal: a slightly more vivid color for hover */
-  --alt-body-text-color: #4F6367; /* Muted gray-green: gentle on the eyes */
-  --alt-caption-text-color: #00474F; /* Matches title text for consistency */
-  --alt-background-hover-color: #A0C4C4; /* Slightly darker aqua-green: for a gentle hover effect */
+  --alt-title-text-color: #00474F;
+  --alt-title-text-hover: #00717A;
+  --alt-body-text-color: #4F6367;
+  --alt-caption-text-color: #00474F;
+  --alt-background-hover-color: #A0C4C4;
+
+  /* Additional Color Pairs */
+  --soft-blue-primary: #DDEAF6;
+  --soft-blue-alt: #C0DDF1;
+
+  --earthy-green-primary: #EAF7E2;
+  --earthy-green-alt: #C7EACD;
+
+  --warm-neutral-primary: #FFF4E6;
+  --warm-neutral-alt: #FEE9D2;
+
+  --muted-pink-primary: #FFE4E6;
+  --muted-pink-alt: #FFCDD2;
+
+  --gentle-purple-primary: #E8EAF6;
+  --gentle-purple-alt: #D1C4E9;
+
+  --calm-gray-primary: #F5F5F5;
+  --calm-gray-alt: #E0E0E0;
+
+  /* Original Transparent Color */
+  --transparent-mint-green: hsl(134 63% 88% / 0.8);
+
+  /* Soft Blues */
+  --transparent-soft-blue-primary: hsl(210 64% 93% / 0.8);
+  --transparent-soft-blue-alt: hsl(206 68% 88% / 0.8);
+
+  /* Earthy Greens */
+  --transparent-earthy-green-primary: hsl(96 57% 93% / 0.8);
+  --transparent-earthy-green-alt: hsl(101 51% 86% / 0.8);
+
+  /* Warm Neutrals */
+  --transparent-warm-neutral-primary: hsl(33 100% 94% / 0.8);
+  --transparent-warm-neutral-alt: hsl(30 86% 90% / 0.8);
+
+  /* Muted Pinks */
+  --transparent-muted-pink-primary: hsl(355 100% 92% / 0.8);
+  --transparent-muted-pink-alt: hsl(355 100% 87% / 0.8);
+
+  /* Gentle Purples */
+  --transparent-gentle-purple-primary: hsl(240 45% 93% / 0.8);
+  --transparent-gentle-purple-alt: hsl(261 48% 85% / 0.8);
+
+  /* Calm Grays */
+  --transparent-calm-gray-primary: hsl(0 0% 96% / 0.8);
+  --transparent-calm-gray-alt: hsl(0 0% 88% / 0.8);
+
+  --background-color: var(--soft-blue-primary);
+  --alt-background-color: var(--soft-blue-alt);
+  --transparent-background: var(--transparent-soft-blue-primary);
 
 }

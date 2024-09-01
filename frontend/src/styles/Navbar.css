@@ -71,7 +71,7 @@
 
 @media (max-width: 40em) {
     .primary-header{
-        background: hsl(134 63% 88%/ 0.8);
+        background: var(--transparent-background);
     }
     .primary-navigation {
         flex-direction: column;

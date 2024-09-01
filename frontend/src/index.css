@@ -9,7 +9,7 @@ html, body {
   height: 100%;
   width: 100%;
 
-  background-color: #CCF2D3;
+  background-color: var(--background-color);
   font-family: 'Courier New', Courier, monospace;
   font-family:monospace;
 }

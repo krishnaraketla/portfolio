@@ -1,11 +1,16 @@
 import Navbar from "../components/Navbar";
 import '../styles/Projects.css';
+import Footer from "../components/Footer";
 
 const Projects = () => {
     return (
-        <div className="projects gradient-background">
+        <>
             <Navbar />
-        </div>
+            <div className="projects gradient-background">
+            
+            </div>
+            <Footer />
+        </>
     );
 };
 
