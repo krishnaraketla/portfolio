@@ -3,7 +3,7 @@
     display: flex;
     padding:1rem;
     margin:0;
-    min-height: 60dvh;
+    min-height: 60vh;
 }
   
 .page-section:nth-child(even) {
@@ -49,8 +49,8 @@
 
 .page-section-image img{
     display: block;
-    max-width: 35dvw;
-    max-height: 45dvh;
+    max-width: 35vw;
+    max-height: 45vh;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
     transition: transform 0.3s ease-in-out;
@@ -59,7 +59,7 @@
 
 .page-section-images img {
     display: block;
-    max-width: 35dvw;
+    max-width: 15vw;
     height: auto; /* Maintains aspect ratio */
     border-radius: 12px; /* Softer rounded corners */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 8px 15px rgba(0, 0, 0, 0.08); /* Softer shadows for a modern look */
@@ -72,10 +72,10 @@
     transform: scale(1.05);
 }
 
-/* .page-section-images img:hover {
-    transform: scale(1.05);
+.page-section-images img:hover {
+    transform: scale(2);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15), 0 10px 20px rgba(0, 0, 0, 0.1);
-} */
+}
 
 .page-section-images {
     display: flex;
@@ -96,13 +96,14 @@
     }
     .page-section-image img{
         display: block;
-        max-width: 85dvw;
-        max-height: 35dvh;
+        max-width: 85vw;
+        max-height: 35vh;
     }
     .page-section-images img{
         width: auto;
+        max-width: 35vw;
     }
     .page-section-images {
-        flex-direction: column;
+        /* flex-direction: column; */
     }
 }
