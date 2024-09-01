@@ -11,8 +11,8 @@ const Footer = () => {
                 <div className="footer-section">
                     <p>
                         Built with ♥ by Krishna. 
-                        <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer"> GitHub</a> | 
-                        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer"> LinkedIn</a> |
+                        <a href="https://github.com/krishnaraketla" target="_blank" rel="noopener noreferrer"> GitHub</a> | 
+                        <a href="https://www.linkedin.com/in/krishna-raketla/" target="_blank" rel="noopener noreferrer"> LinkedIn</a> |
                         <a href="mailto:raketla.k@northeastern.edu" target="_blank" rel="noopener noreferrer"> Contact</a>
                     </p>
                 </div>
