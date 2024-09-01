@@ -49,6 +49,20 @@ const Home = () => {
                     </>
                 }
             />
+            <PageSection 
+                title="Artworks"
+                text={
+                    <>
+                        <p>I love painting in oil, watercolor and charcoal.</p>
+                    </>
+                }
+                images={[
+                    "/artwork1.jpg",
+                    "/artwork3.jpg",
+                    "/artwork2.jpg",
+                    "/artwork4.jpg"
+                ]}
+            />
         </div>
     );
 };
