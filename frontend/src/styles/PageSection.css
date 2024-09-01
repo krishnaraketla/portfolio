@@ -61,8 +61,8 @@
     display: block;
     max-width: 15vw;
     height: auto; /* Maintains aspect ratio */
-    border-radius: 12px; /* Softer rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 8px 15px rgba(0, 0, 0, 0.08); /* Softer shadows for a modern look */
+    /* border-radius: 12px; Softer rounded corners */
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 8px 15px rgba(0, 0, 0, 0.08); Softer shadows for a modern look */
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Adds smooth transition for hover effects */
     object-fit: cover; /* Ensures images fill their containers without distortion */
     width: calc(45% - 16px);
