@@ -11,10 +11,8 @@ const PageSection = ({ title, image, text, images }) => {
             )}
             <div className="page-section-text">
                 <div className="page-section-title">{title}</div>
-                {/* Render each paragraph */}
-                {text.map((paragraph, index) => (
-                    <p key={index}>{paragraph}</p>
-                ))}
+                {/* Render the text content directly, allowing it to contain HTML elements */}
+                <div className="page-section-content">{text}</div>
                 {images && (
                     <div className="page-section-images">
                         {images.map((img, index) => (
