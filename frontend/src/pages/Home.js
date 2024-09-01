@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import '../styles/Home.css';
+import Footer from "../components/Footer";
 import HeroSection from "../components/HeroSection";
 import PageSection from "../components/PageSection";
 
@@ -63,6 +64,7 @@ const Home = () => {
                     "/artwork4.jpg"
                 ]}
             />
+            <Footer />
         </div>
     );
 };
