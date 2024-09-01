@@ -101,9 +101,9 @@
     }
     .page-section-images img{
         width: auto;
-        max-width: 35vw;
+        max-width: 30vw;
     }
     .page-section-images {
-        /* flex-direction: column; */
+        flex-direction: row;
     }
 }
