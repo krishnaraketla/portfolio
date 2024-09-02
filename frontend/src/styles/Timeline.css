@@ -1,0 +1,94 @@
+.timeline-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5.5rem;
+    min-height: 50vh;
+    padding: 5rem;
+}
+
+.timeline-event{
+    display: flex;
+    min-height: 50vh;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
+.date-info{
+    min-height: 50%;
+    min-width: 50%;
+}
+
+.event-item{
+    min-height: 50%;
+    min-width: 50%;
+}
+
+
+@media (max-width: 40em) {
+    .timeline-container{
+        margin-top: 4.5rem;
+        padding: 1rem;
+    }   
+    .timeline-event{
+        border-left: 1px solid black;
+        position: relative;
+    }
+    /* Add circles for smaller screens */
+    .timeline-event::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -0.5rem;
+        width: 1rem;
+        height: 1rem;
+        background-color: black;
+        border-radius: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+@media (min-width: 40em) {
+    .timeline-event:nth-child(odd) {
+        flex-direction: row; 
+    }
+    
+    .timeline-event:nth-child(even) {
+        flex-direction: row-reverse; 
+    } 
+
+    .timeline-event:nth-child(odd) .event-item {
+        border-left: 1px solid black;
+        position: relative;
+    }
+
+    .timeline-event:nth-child(even) .event-item {
+        border-right: 1px solid black;
+        position: relative;
+    }
+
+    /* Add circles for odd events */
+    .timeline-event:nth-child(odd) .event-item::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -0.5rem;
+        width: 1rem;
+        height: 1rem;
+        background-color: black;
+        border-radius: 50%;
+        transform: translateY(-50%);
+    }
+
+    /* Add circles for even events */
+    .timeline-event:nth-child(even) .event-item::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: -0.5rem;
+        width: 1rem;
+        height: 1rem;
+        background-color: black;
+        border-radius: 50%;
+        transform: translateY(-50%);
+    }
+}
