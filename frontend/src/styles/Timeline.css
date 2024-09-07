@@ -1,6 +1,6 @@
 :root {
     --timeline-color: #ccc;
-    --timeline-bg: #f1f8ff;
+    --timeline-bg: linear-gradient(90deg, var(--alt-background-color), var(--background-color));
     --circle-size: 1.5rem;
     --line-width: 3px;
   }
@@ -15,7 +15,7 @@
     margin-top: 5.5rem;
     min-height: 50vh;
     padding: 5rem;
-    background-color: var(--timeline-bg);
+    background: var(--timeline-bg);
     overflow: hidden;
   }
   
