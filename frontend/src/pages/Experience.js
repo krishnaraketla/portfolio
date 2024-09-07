@@ -40,7 +40,16 @@ const workExperience = [
       </ul>
     `,
   },
-  // Add more items as needed
+  {
+    title: 'Research and Development Intern at HP Inc.',
+    date: 'January 2019 - July 2019',
+    description: `
+      <ul>
+        <li>Automated the testing process using a binary search algorithm to identify failure commits, reducing the process time from 3-man days to 20 minutes</li>
+        <li>Engineered a firmware architecture model using the C# .NET framework for printer’s native code to expedite integration of a performance profiling tool, uncovering issues in advance</li>
+      </ul>
+    `,
+  },
 ];
 
 const Experience = () => {

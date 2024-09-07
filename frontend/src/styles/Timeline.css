@@ -21,7 +21,6 @@
   
   .timeline-event {
     display: flex;
-    min-height: 50vh;
     flex-direction: row-reverse;
   }
   
@@ -98,6 +97,7 @@
       border-left: var(--line-width) solid var(--timeline-color);
       position: relative;
       padding-left: 2rem;
+      padding-bottom: 1rem;;
       margin-left: 1rem;
     }
   
