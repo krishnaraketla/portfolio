@@ -6,9 +6,8 @@
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     max-height: 2.5rem;
 
-    position: relative;
-    position:-webkit-sticky;
-    bottom:0;
+    /* position: relative;
+    bottom:0; */
     /* z-index: -1; */
 }
 
@@ -31,10 +30,14 @@
 }
 
 .footer a:hover {
-    color: #0047AB; /* Change color on hover for a nicer effect */
+    color: #0047AB;
 }
 
 @media (max-width: 40em) {
+    .footer {
+        position: relative;
+    }
+
     .nolinks{
         display: none;
     }
