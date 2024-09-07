@@ -1,8 +1,8 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import Projects from './pages/Projects';
 import './styles/variable.css';
+import Experience from './pages/Experience';
 
 function App() {
   return (
@@ -15,8 +15,8 @@ function App() {
                 element= { <Home />}
               />
               <Route
-                path="/projects"
-                element= { <Projects />}
+                path="/experience"
+                element= { <Experience />}
               />
             </Routes>
           </div>

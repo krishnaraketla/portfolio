@@ -29,10 +29,10 @@ const Navbar = () => {
                         <a href="/"><span aria-hidden='true'>00</span>Home</a>
                     </li>
                     <li>
-                        <a href="/projects"><span aria-hidden='true'>01</span>Projects</a>
+                        <a href="#projects"><span aria-hidden='true'>01</span>Projects</a>
                     </li>
                     <li>
-                        <a href="#experience"><span aria-hidden='true'>02</span>Experience</a>
+                        <a href="/experience"><span aria-hidden='true'>02</span>Experience</a>
                     </li>
                     <li>
                         <a href="#favourite-books"><span aria-hidden='true'>03</span>Favourite Books</a>
