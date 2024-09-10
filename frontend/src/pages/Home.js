@@ -58,10 +58,9 @@ const Home = () => {
                     </>
                 }
                 images={[
-                    "/artwork1.jpg",
-                    "/artwork3.jpg",
-                    "/artwork2.jpg",
-                    "/artwork4.jpg"
+                    "images/oil.webp",
+                    "images/charcoal.webp",
+                    "images/watercolor.webp",
                 ]}
             />
             <Footer />

@@ -1,0 +1,63 @@
+.art-page{
+    min-height: 100vh;
+    /* background: var(--transparent-calm-gray-alt); */
+}
+
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 2fr);
+    grid-auto-rows: 10rem;
+    gap: 1rem; 
+    padding: 2.5rem;
+    margin-top: 5.5rem;
+  }
+  
+  .bento-item {
+    background-color: #f0f0f0;
+    border: 0.1rem solid #ddd;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    text-align: center;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+
+    background-size:cover;
+    background-position: center;
+  }
+
+  .bento-item span {
+    position: relative;
+    z-index: 2;
+    color: white; 
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.5);
+  }
+
+  .bento-item.large {
+    grid-column: span 4;
+    grid-row: span 4;
+  }
+  
+  .bento-item.medium {
+    grid-column: span 3;
+    grid-row: span 3;
+  }
+  
+  .bento-item.small {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  
+  .bento-item:hover {
+    transform: scale(1.05);
+  }
+
+  @media (max-width: 40em) {
+    .bento-grid{
+        grid-template-columns: repeat(4, 1fr);
+    }
+  }

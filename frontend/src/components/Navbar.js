@@ -38,7 +38,7 @@ const Navbar = () => {
                         <a href="#favourite-books"><span aria-hidden='true'>03</span>Favourite Books</a>
                     </li>
                     <li>
-                        <a href="#art"><span aria-hidden='true'>04</span>Art</a>
+                        <a href="/art"><span aria-hidden='true'>04</span>Art</a>
                     </li>
                 </ul>
             </nav>
